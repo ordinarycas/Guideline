@@ -1,0 +1,194 @@
+/*
+Template Name
+Description
+Vertion
+Copyright
+Author
+Last Modifed Date
+*/
+
+/*--------------------*/
+/*    $Catalog
+----------------------*/
+
+/**
+* Catalog
+* Button
+* Navigation bar
+* Jumbotron
+* Thumbnail
+* Footer
+**/
+
+/*--------------------*/
+/*    $Button
+----------------------*/
+.btn{
+    /* structure */
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin: 0px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0px 16px;
+    min-width: 64px;
+    box-sizing: border-box;
+    /* style */
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Helvetica","Noto Sans TC", "Roboto", "Arial", sans-serif;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #353630;
+    background-color: #d1d2d3;
+    border: 0px;
+    border-radius: 4px;
+    outline: none;
+    /* box-shadow: none; */
+    /* interact */
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    transition: background-color 0.3s;
+}
+.btn--hover,
+.btn:hover{
+    background-color: #999a94;
+    /* box-shadow:4px 4px 12px #353630; */
+}
+.btn--hover,
+.btn:active{
+    background-color: #3ed5ac;
+}
+.btn--disabled,
+.btn--disabled:hover,
+.btn--disabled:focus,
+.btn--disabled:active{
+    color: #ffffff;
+    pointer-events: none;
+    background-color: #d1d2d3;
+}
+.btn.btn--primary,
+.btn.btn--secondary,
+.btn.btn--postive,
+.btn.btn--negative,
+.btn.btn--black{
+    color: #ffffff;
+}
+.btn.btn--primary{
+    background-color: #f95c3c;
+}
+.btn.btn--primary.btn--hover,
+.btn.btn--primary:hover{
+    background-color: #dd5033;
+}
+
+
+.btn.btn--secondary{
+    background-color: #43484c;
+}
+.btn.btn--secondary.btn--hover,
+.btn.btn--secondary:hover{
+    background-color: #35393d;
+}
+
+
+.btn.btn--postive{
+    background-color: #3ed5ac;
+}
+.btn.btn--postive.btn--hover,
+.btn.btn--postive:hover{
+    background-color: #38a59d;
+}
+
+
+.btn.btn--negative{
+    background-color: #f84545;
+}
+.btn.btn--negative.btn--hover,
+.btn.btn--negative:hover{
+    background-color: #db3d3d;
+}
+
+.btn.btn--lg{
+    font-size: 22px;
+    line-height: 56px;
+    height: 56px;
+    font-weight: 400;
+}
+.btn.btn--md{
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+}
+.btn.btn--sm{
+    font-size: 14px;
+    line-height: 32px;
+    height: 32px;
+}
+/*--------------------*/
+/*    $Navigation bar
+----------------------*/
+/* logo */
+.logo__image{
+    width: 80px;
+    height: 80px;
+    background-color:#f95c3c;
+    display: block;
+}
+/* menu */
+.menu{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.menu.menu--horizontal > li{
+    float: left;
+}
+.menu__item{
+    color: #353630;
+    display: block;
+    transition: all 0.2s;
+    font-size: 16px;
+}
+.menu.menu--horizontal .menu__item{
+    line-height: 24px;
+    padding: 28px 32px;
+}
+.navbar__nav .menu__item{
+    color: #f4f4f4;
+}
+.navbar__nav .menu__item:hover{
+    color: #f95c3c;
+}
+/* navbar */
+.navbar{
+    background-color: #43484c;
+    min-height: 48px;
+}
+.navbar__logo{
+    float: left;
+}
+.navbar__nav{
+    float: right;
+}
+
+/*--------------------*/
+/*    $Jumbotron
+----------------------*/
+
+
+/*--------------------*/
+/*    $Thumbnail
+----------------------*/
+
+
+/*--------------------*/
+/*    $Footer
+----------------------*/
